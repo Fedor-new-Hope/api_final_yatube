@@ -41,3 +41,8 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+Примеры запросов:
+Примеры запросов можно получить, установив проект и перейдя по ссылке
+
+http://127.0.0.1:8000/redoc/

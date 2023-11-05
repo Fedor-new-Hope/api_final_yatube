@@ -17,32 +17,30 @@ Yatube - проект социальной сети. «API для Yatube» ра�
 - Django REST Framework
 - Simple JWT
 
-### Как запустить проект:
 
-Клонировать репозиторий и перейти в него в командной строке:
+## Как запустить проект:
 
-`git clone git@github.com:Fedor-new-Hope/api_final_yatube.git`
+- Клонируйте репозитроий с проектом:
+```
+git clone git@github.com:Fedor-new-Hope/api_final_yatube.git
+```
+- Установить виртуальное окружение для проекта:
+```
+python -m venv venv
 
-`cd api_final_yatube`
+source venv/Scripts/activate
 
+pip install -r requirements.txt
+```
 
-Создать и активировать виртуальное окружение:
-
-+ `python -m venv env`
-+ `source venv/Scripts/activate`
-+ `python -m pip install --upgrade pip`
-
-Установить зависимости из файла requirements.txt:
-`pip install -r requirements.txt`
-
-Выполнить миграции:
-`python manage.py migrate`
-
-
-Запустить проект:
-`python manage.py runserver`
-#### После запуска проекта, документация будет доступна по адресу:
-`http://localhost:port/redoc/`
+- Выполните миграции:
+```
+python manage.py migrate
+```
+- Запустите сервер:
+```
+python manage.py runserver
+```
 
 #### Примеры запросов:
 
